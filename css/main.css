@@ -68,7 +68,6 @@ header {
 /* Body */
 p {
     font-family: sans-serif;
-    border-bottom: 1px solid lightgrey;
     padding: 1em;
     max-width: 640px;
     margin-left: 1em;
@@ -77,6 +76,11 @@ p {
 h2 {
     margin-top: 2em;
     margin-left: 1em;
+}
+.gallery {
+    border-top: 1px solid lightgrey;
+    max-width: 640px;
+    padding-top: 20px;
 }
 a {
     color: black;
@@ -167,9 +171,45 @@ a {
     text-decoration: none;
     font-weight: bold;
     font-family: sans-serif;
-    float: left; margin:  0px 5px 50px 1em;
+    float: left; margin:  0px 5px 5px 1em;
 }
 .project7:hover {
+     background:white;
+     color:black;
+}
+.project8 {
+    background-image: url(../images/stones.jpg);
+    padding: 140px 114px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin:  0px 5px 5px 0em;
+}
+.project8:hover {
+     background:white;
+     color:black;
+}
+.project9 {
+    background-image: url(../images/lawn.jpg);
+    padding: 140px 114px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin:  0px 5px 50px 1em;
+}
+.project9:hover {
+     background:white;
+     color:black;
+}
+.project10 {
+    background-image: url(../images/glacier.jpg);
+    padding: 140px 110px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin:  0px 5px 50px 0em;
+}
+.project10:hover {
      background:white;
      color:black;
 }
