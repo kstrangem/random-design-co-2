@@ -216,6 +216,12 @@ a {
 }
 .contact-us {
     background-image: url(../images/fall-leaves.jpg);
+    padding: 140px 110px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin:  0px 5px 50px 1em;
 }
 /* Footer */
 footer {
