@@ -223,6 +223,18 @@ a {
     font-family: sans-serif;
     float: left; margin:  0px 5px 50px 1em;
 }
+.email {
+    padding: 1em;
+    border: 1px solid #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 2850px;
+    right: 750px;
+}
+.email:hover {
+    background-color:white;
+    color:black;
+}
 /* Footer */
 footer {
     text-align: center;
